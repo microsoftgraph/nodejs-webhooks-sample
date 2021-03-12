@@ -17,7 +17,7 @@
     "express": "^4.17.1",
     "express-rate-limit": "^5.2.6",
     "jsonwebtoken": "^8.5.1",
-    "jwks-rsa": "^1.12.3",
+    "jwks-rsa": "^2.0.0",
     "morgan": "^1.10.0",
     "pem": "^1.14.4",
     "pug": "^3.0.2",
