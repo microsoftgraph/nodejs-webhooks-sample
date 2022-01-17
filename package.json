@@ -14,7 +14,7 @@
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.6",
     "debug": "^4.3.3",
-    "dotenv": "^11.0.0",
+    "dotenv": "^14.1.0",
     "express": "^4.17.2",
     "express-promise-router": "^4.1.1",
     "express-session": "^1.17.2",
