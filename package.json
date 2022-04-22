@@ -27,7 +27,7 @@
     "pem": "^1.14.6",
     "pug": "^3.0.2",
     "socket.io": "^4.4.1",
-    "sqlite3": "^5.0.4"
+    "sqlite3": "^5.0.5"
   },
   "devDependencies": {
     "prettier": "^2.6.2"
