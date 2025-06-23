@@ -22,7 +22,7 @@
     "isomorphic-fetch": "^3.0.0",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.2.0",
-    "mocha": "^11.6.0",
+    "mocha": "^11.7.0",
     "morgan": "^1.10.0",
     "pem": "^1.14.8",
     "pug": "^3.0.3",
