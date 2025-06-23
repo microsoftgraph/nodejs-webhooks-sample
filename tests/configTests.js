@@ -49,33 +49,35 @@ describe('Notification URL', function () {
 
 describe('Certificate config', function () {
   it('should have a certificate path', function () {
-    assert(
+    (assert(
       process.env.CERTIFICATE_PATH && process.env.CERTIFICATE_PATH.length > 0,
     ),
       'CERTIFICATE_PATH is not set in .env\n' +
-        'Please provide a relative path and file name';
+        'Please provide a relative path and file name');
   });
 
   it('should have a certificate ID', function () {
-    assert(process.env.CERTIFICATE_ID && process.env.CERTIFICATE_ID.length > 0),
+    (assert(
+      process.env.CERTIFICATE_ID && process.env.CERTIFICATE_ID.length > 0,
+    ),
       'CERTIFICATE_ID is not set in .env\n' +
-        'Please provide an identifier for the certificate';
+        'Please provide an identifier for the certificate');
   });
 
   it('should have a private key path', function () {
-    assert(
+    (assert(
       process.env.PRIVATE_KEY_PATH && process.env.PRIVATE_KEY_PATH.length > 0,
     ),
       'PRIVATE_KEY_PATH is not set in .env\n' +
-        'Please provide a relative path and file name';
+        'Please provide a relative path and file name');
   });
 
   it('should have a private key password', function () {
-    assert(
+    (assert(
       process.env.PRIVATE_KEY_PASSWORD &&
         process.env.PRIVATE_KEY_PASSWORD.length > 0,
     ),
       'PRIVATE_KEY_PASSWORD is not set in .env\n' +
-        'Please provide a password for the private key';
+        'Please provide a password for the private key');
   });
 });
