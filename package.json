@@ -9,7 +9,7 @@
     "start": "npm run test && node ./bin/www"
   },
   "dependencies": {
-    "@azure/msal-node": "^3.6.0",
+    "@azure/msal-node": "^3.6.1",
     "@microsoft/microsoft-graph-client": "^3.0.7",
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.7",
