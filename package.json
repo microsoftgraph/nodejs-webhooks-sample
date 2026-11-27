@@ -9,12 +9,12 @@
     "start": "npm run test && node ./bin/www"
   },
   "dependencies": {
-    "@azure/msal-node": "^7.1.1",
-    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@azure/msal-node": "^7.2.3",
+    "@microsoft/microsoft-graph-client": "^3.1.0",
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.7",
     "debug": "^4.4.3",
-    "dotenv": "^18.0.9",
+    "dotenv": "^18.0.10",
     "express": "^4.22.3",
     "express-promise-router": "^4.1.1",
     "express-session": "^1.19.0",
@@ -30,6 +30,6 @@
     "sqlite3": "^6.0.1"
   },
   "devDependencies": {
-    "prettier": "^3.9.10"
+    "prettier": "^3.10.1"
   }
 }
